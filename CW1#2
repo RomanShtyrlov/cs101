@@ -1,0 +1,8 @@
+let name = prompt("Enter your name");
+
+let age = prompt("enter your age");
+
+if(age >= 18 && name == "Ярополк")
+{
+console.log("Hello")
+}
