@@ -1,0 +1,16 @@
+let whitelist = ["Zeus", "Apollo", "Poseidon", "Demeter", "Aphrodite"];
+
+let Secret = "Earth is flat";
+let FalseInfo = "Earth is actually round";
+
+let name = prompt("Enter your name");
+
+if (whitelist.includes(name))
+{
+  console.log(Secret)
+}
+
+else
+{
+  console.log(FalseInfo)
+}
