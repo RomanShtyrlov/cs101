@@ -1,0 +1,24 @@
+let whitelist = ["Zeus", "Apollo", "Poseidon", "Demeter", "Aphrodite"];
+
+let blacklist = [];
+
+let Secret = "Earth is flat";
+let FalseInfo = "Earth is actually round";
+
+let name = prompt("Enter your name");
+let age = prompt("Enter your age");
+
+if (age<18)
+{
+  blacklist.push(name)
+}
+
+if (whitelist.includes(name) && !blacklist.includes(name))
+{
+  console.log(Secret)
+}
+
+else
+{
+  console.log(FalseInfo)
+}
