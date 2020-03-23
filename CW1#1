@@ -1,4 +1,0 @@
-let name = prompt("Enter your name");
-let age = prompt("enter your age");
-
-console.log(name, ",", age);
